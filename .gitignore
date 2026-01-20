@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+
+# environments
+.env
+.env.*
+venv/
+
+# runtime outputs
+logs/
+alerts/
+
+# models / weights
+models/
+*.pt
+*.onnx
+
+# data
+data/raw/
+*.mp4
+*.avi
+
+# notebooks
+.ipynb_checkpoints/
